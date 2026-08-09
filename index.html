@@ -144,7 +144,6 @@
           const highAvg = high / midpoint;
           const ratio = highAvg / (lowAvg + 1);
 
-          // انفخ بقوة أو بصوت مرتفع
           if (!blown && (volume > 35 || (volume > 20 && ratio > 0.15))) {
             blown = true;
             blowOutCandles();
